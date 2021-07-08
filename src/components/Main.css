@@ -1,0 +1,98 @@
+.main {
+  background: #fff;
+  padding: 2rem;
+  margin: 2.75rem auto;
+  max-width: 500px;
+  border-radius: .25rem;
+  box-shadow: 0 0 .75rem rgba(0, 0, 0, .2)
+}
+
+.main h1 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.form {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input[type="text"] {
+  height: 2.25rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+
+  min-width: 80%;
+}
+
+.form button[type="submit"] {
+  height: 2.25rem;
+  width: 2.25rem;
+  border: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f04c64;
+  color: #FFF;
+
+  transition: .2s;
+}
+
+.form button[type="submit"]:hover {
+  background: #f26f86;
+}
+
+.tasks {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tasks li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(2.25rem + 80% + 1.5rem);
+  transition: .3s;
+
+  border-radius: .4rem;
+  padding: .75rem;
+}
+
+.tasks li:hover {
+  background:rgb(235, 235, 235);
+}
+
+
+.tasks li .edit {
+  margin-right: 1rem;
+  color: #51c5de;
+
+  cursor: pointer;
+
+  transition: .3s;
+}
+
+.tasks li .delete {
+  color: #f04c64;
+
+  cursor: pointer;
+
+  transition: .2s;
+}
+
+.tasks li:hover .edit,
+.tasks li:hover .delete {
+  color: black;
+}
+
+.tasks li span{
+  display: flex;
+  align-items: center;
+}
