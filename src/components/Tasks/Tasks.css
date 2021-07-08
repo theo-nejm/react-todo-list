@@ -1,18 +1,3 @@
-.main {
-  background: #fff;
-  padding: 2rem;
-  margin: 2.75rem auto;
-  max-width: 500px;
-  border-radius: .25rem;
-  box-shadow: 0 0 .75rem rgba(0, 0, 0, .2)
-}
-
-.main h1 {
-  font-size: 1.6rem;
-  text-align: center;
-}
-
-
 .tasks {
   margin-top: 2rem;
   display: flex;
