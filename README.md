@@ -1,5 +1,7 @@
 <center>
   <h1>To-do list ➯ EN-US</h1>
+
+  <img src="https://i.imgur.com/MuT4HC2.png" style="width: 84vw">
 </center>
 
 <div style="height: auto; width: 100vw; display: flex; align-items: center; justify-content: center; position: absolute; left: -4px;">
@@ -24,3 +26,4 @@
 
 </div>
 </div>
+

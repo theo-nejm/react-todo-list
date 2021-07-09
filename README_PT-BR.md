@@ -1,5 +1,5 @@
 <center>
-  <h1>To-do list ➯ EN-US</h1>
+  <h1>To-do list ➯ PT-BR</h1>
 
   <img src="https://i.imgur.com/MuT4HC2.png" style="width: 84vw">
 </center>
